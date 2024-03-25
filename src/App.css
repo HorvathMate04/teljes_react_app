@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+form {
+  margin: 20px auto;
+  width: 50%;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: calc(100% - 10px);
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#checkbox{
+  width: 10%;
+  margin: 0;
+}
+
+button {
+  padding: 8px 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.submit{
+  background-color: #4CAF50;
+}
+
+.submit:hover {
+  background-color: #45a049;
+}
+
+.delete{
+  background-color: #bb3131;
+}
+
+.delete:hover{
+  background-color: #c55757;
+}
